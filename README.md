@@ -27,6 +27,3 @@ Saranghae Honey Bee Farm is an IoT-inspired monitoring tool for beekeepers. It e
 - **Charts:** `fl_chart` for dynamic graph rendering
 - **Fonts:** Custom fonts (`TitleFont`, `Lexend`)
 - **Icons:** Material Icons
-
-
-
