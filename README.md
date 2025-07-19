@@ -1,12 +1,12 @@
-# Saranghae Honey Bee Farm 🐝🌼
+# Saranghae Honey Bee Farm 🐝
 
 A Flutter mobile application designed to monitor and manage beehive conditions efficiently. The app provides real-time updates on temperature, humidity, and hive weight, while also offering user-friendly features like fan toggling, notifications, historical logs, and reminders.
 
 ## 📱 Project Overview
 
-Saranghae Honey Bee Farm is an IoT-inspired monitoring tool for beekeepers. It ensures optimal conditions inside beehives and provides timely alerts and visual data to support bee health and productivity.
+Saranghae Honey Bee Farm is an IoT-inspired monitoring tool for beekeepers. It ensures ideal conditions inside beehives and provides timely alerts and visual data to support bee health and productivity.
 
-### 🌟 Key Features
+###  Key Features
 
 - **Hive Dashboard (Home Tab):**
   - Real-time status display: Temperature, Humidity, and Hive Weight.
@@ -15,8 +15,7 @@ Saranghae Honey Bee Farm is an IoT-inspired monitoring tool for beekeepers. It e
   - Line charts for each metric powered by [`fl_chart`](https://pub.dev/packages/fl_chart).
 
 - **Notifications Tab:**
-  - Displays system-generated alerts for environmental thresholds (e.g., high humidity or honey harvest readiness).
-  - Dismiss or tap for more details.
+  - Shows environmental limit alarms set up by by the system. (e.g., high humidity or honey harvest readiness).
 
 - **History Tab:**
   - Lists recent activities, logs, and hive-related changes for tracking past conditions.
@@ -29,5 +28,5 @@ Saranghae Honey Bee Farm is an IoT-inspired monitoring tool for beekeepers. It e
 - **Fonts:** Custom fonts (`TitleFont`, `Lexend`)
 - **Icons:** Material Icons
 
-## 📂 Project Structure
+
 
