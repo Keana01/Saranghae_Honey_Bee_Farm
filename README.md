@@ -20,7 +20,7 @@ Saranghae Honey Bee Farm is an IoT-inspired monitoring tool for beekeepers. It e
 - **History Tab:**
   - Lists recent activities, logs, and hive-related changes for tracking past conditions.
 
-## 🛠️ Tech Stack
+## Implementation Tools
 
 - **Framework:** Flutter (Dart)
 - **UI Components:** Material Design
