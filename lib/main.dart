@@ -119,7 +119,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
         Text(
           "Home",
           style: TextStyle(
-            fontFamily: 'TitleFont', // 👈 DIFFERENT FONT
+            fontFamily: 'TitleFont', 
             fontSize: 12,
             color: Colors.white,
           ),
@@ -175,7 +175,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
-              mainAxisSize: MainAxisSize.min, // make row take only needed width
+              mainAxisSize: MainAxisSize.min, 
               children: [
                 const Text(
                   "Hive Status",
@@ -185,7 +185,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
                     color: Color(0xFF4E342E),
                   ),
                 ),
-                const SizedBox(width: 4), // very small space to keep them close
+                const SizedBox(width: 4), 
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   decoration: BoxDecoration(
@@ -334,7 +334,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
   List<FlSpot> generateData(String type) {
     switch (type) {
       case "Temperature":
-        // Updated range 34 to 36 (closer range)
+       
         return [
           FlSpot(0, 34.2),
           FlSpot(1, 34.5),
@@ -345,7 +345,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
           FlSpot(6, 36.0),
         ];
       case "Humidity":
-        // Only one graph line now with values from 50 to 70
+       
         return [
           FlSpot(0, 50),
           FlSpot(1, 55),
@@ -356,7 +356,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
           FlSpot(6, 66),
         ];
       case "Weight":
-        // No change here
+       
         return [
           FlSpot(0, 30),
           FlSpot(1, 31),
