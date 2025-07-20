@@ -88,7 +88,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
               fontWeight: FontWeight.w700,
               fontSize: 20,
               color: Colors.white,
-              fontFamily: 'TitleFont',
+              fontFamily: 'Lexend',
               ),
             ),
             ],
@@ -134,7 +134,7 @@ class _HiveStatusPageState extends State<HiveStatusPage> with TickerProviderStat
         Icon(Icons.notifications, color: Colors.white),
         SizedBox(height: 2),
         Text(
-          "Notif",
+          "Notification",
           style: TextStyle(
             fontFamily: 'Lexend', 
             fontSize: 12,
